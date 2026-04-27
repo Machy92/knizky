@@ -36,8 +36,8 @@ export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, on
           <h3>{book.author}</h3>
         </div>
         <div className="tags-section">
-          <span className="tag detail-tag">{book.period}</span>
-          <span className="tag detail-tag">{book.typeAndGenre}</span>
+          {book.period && <span className="tag detail-tag">{book.period}</span>}
+          {book.typeAndGenre && <span className="tag detail-tag">{book.typeAndGenre}</span>}
         </div>
       </div>
 

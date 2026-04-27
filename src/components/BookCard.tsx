@@ -14,7 +14,7 @@ export const BookCard: React.FC<BookCardProps> = ({ book, onClick }) => {
         <h3 className="book-title">{book.title}</h3>
         <p className="book-author">{book.author}</p>
         <div className="book-tags">
-          <span className="tag">{book.period}</span>
+          {book.period && <span className="tag">{book.period}</span>}
         </div>
       </div>
     </div>
