@@ -20,7 +20,64 @@ export const books: Book[] = [
     "theme": "Co je důležité, očima neuvidíme. Správně vidíme jen srdcem. (Motivy: Tajemství, zkrocení, priority v životě, kresby (ne vše jde popsat a říci, autor využíval kresby))",
     "timeAndSpace": "Vesmír, nejspíš 2. světová válka, odehrává se to během 8 dnů",
     "composition": "Začátek a konec chronologicky, část je psána retrospektivně (vzpomíná, kde všude navštívil planetky)",
-    "characters": [],
+    "characters": [
+      {
+        "name": "Pilot (vypravěč)",
+        "description": "Porouchalo se mu letadlo na poušti, kreslil princi beránky."
+      },
+      {
+        "name": "Malý princ",
+        "description": "Putoval z rodné planetky B 612 po vesmíru, vyprávěl pilotovi o svém cestování."
+      },
+      {
+        "name": "Růže",
+        "description": "Žila s princem na planetce B 612, byla nesmírně pyšná a chtěla, aby o ni bylo přehnaně pečováno."
+      },
+      {
+        "name": "Pyšný král",
+        "description": "Panoval všem, ale vlastně nikomu, protože byl na planetce sám."
+      },
+      {
+        "name": "Domýšlivec",
+        "description": "Slyšel jen chválu a chtěl být stále jen obdivován, protože byl nejlepší na planetě."
+      },
+      {
+        "name": "Pijan",
+        "description": "Pil aby zapomněl, že se stydí za to že pije."
+      },
+      {
+        "name": "Byznysmen",
+        "description": "Stále přepočítával hvězdy, které mu patřily, tudíž byl podle něj nesmírně bohatý."
+      },
+      {
+        "name": "Lampář",
+        "description": "Každé ráno rozsvítil a večer zhasl lampu, nemohl si odpočinout."
+      },
+      {
+        "name": "Zeměpisec",
+        "description": "Zapisoval vše zeměpisné, ale neměl co zapisovat, protože neměl žádné badatele."
+      },
+      {
+        "name": "Had",
+        "description": "Pověděl princi, že může každého dotykem vrátit do země, ze které přišel, a uštkl ho."
+      },
+      {
+        "name": "Květina",
+        "description": "Květina na poušti, kterou princ potkal po hadovi."
+      },
+      {
+        "name": "Liška",
+        "description": "Pověděla princi o obrovské ceně a významu přátelství a jedinečnosti."
+      },
+      {
+        "name": "Výhybkář",
+        "description": "Vypravoval vlaky."
+      },
+      {
+        "name": "Obchodník",
+        "description": "Prodával pilulky uhašující žízeň."
+      }
+    ],
     "plotSummary": [
       "Kniha začíná porovnáváním představivosti dětí a dospělých vypravěčem, který následně vypráví svůj příběh:",
       "Pilotovi (vypravěčovi) se porouchalo letadlo na poušti, kde měl vodu sotva na týden. Najednou ho kdosi probudil, byl to Malý princ a chtěl nakreslit beránka. Pilot mu jich nakreslil spousty, dokud to nebyl ten správný. Postupem času pilot poznával Malého prince, který mu vyprávěl o svém cestování. Nejprve povídal o rodné planetce B 612, kde žil se svou růží, která byla nesmírně pyšná, protože si myslela, že je jediná svého druhu a stále chtěla, aby o ni bylo přehnaně pečováno. Planetka byla opravdu malinkatá, proto bylo třeba pravidelně vytrhávat malé baobaby, aby nevyrostli a neroztrhli ji a také se nesmělo zapomínat vymetat sopky.",
@@ -156,7 +213,19 @@ export const books: Book[] = [
     "theme": "Vůdci každé společnosti, kdykoliv se naskytne možnost, chtějí zneužívat svého postavení. (Motivy: Komunismus, prasata, zvířata, nadřazenost)",
     "timeAndSpace": "2. polovina 20. století, statek v Anglii",
     "composition": "Chronologická",
-    "characters": [],
+    "characters": [
+      { "name": "Kanec Major", "description": "Svolal zvířata a povídal jim o revoluci, brzy umírá." },
+      { "name": "Pan Jones", "description": "Opilecký majitel farmy, kterého zvířata vyhnala." },
+      { "name": "Molina", "description": "Stýskalo se jí po lidech, utekla z farmy." },
+      { "name": "Kuliš", "description": "Chytré prase, statečně bojoval, chtěl postavit mlýn, vyhnán Napoleonem." },
+      { "name": "Napoleon", "description": "Chytré prase, stane se Vůdcem, vládne tvrdou rukou, pije alkohol a chová se jako člověk." },
+      { "name": "Psi", "description": "Vychováni Napoleonem, hlídají farmu a slouží k zastrašování." },
+      { "name": "Pištík", "description": "Propagandista prasat, překrucuje pravdu a předhazuje zvířatům statistiky." },
+      { "name": "Frederick a Pilkington", "description": "Sousední farmáři, s nimiž prasata obchodují a hrají karty." },
+      { "name": "Whymper", "description": "Lidský prostředník, přes kterého prasata obchodují." },
+      { "name": "Boxer", "description": "Kůň, nejoddanější a nejpracovitější zvíře, předře se a je odvezen na jatka." },
+      { "name": "Benjamin a Lupina", "description": "Osel a kobyla, přátelé Boxera, kteří pochopí smutnou pravdu." }
+    ],
     "plotSummary": [
       "Když kanec Major umíral na Panské farmě v Anglii, svolal si ostatní zvířata a povídal jim o tom, jak je lidé na statku trápí, jak mají nedostatek žrádla, jak jsou otroky lidí, a že musí být revoluce. Revoluce nastala. Zvířata vyhnala z farmy opileckého pana Jonese a s ním všechny ostatní lidi, a prasata coby nejinteligentnější zvířata se zmocnila vedení farmy. Nastalo období Zvířecí farmy a animalismu. Hymnou se stala píseň Zvířata Anglie, která byla zpívána na kterékoliv schůzi a jejich heslem věta „čtyři nohy dobré, dvě špatné“. Všichni se spojili proti lidem. Zvířata stanovila Sedm přikázání, která musí být dodržována. Mezi nimi byla pravidla o tom, že žádné zvíře nesmí zabít jiné zvíře, nikdo nesmí pít alkohol, všechna zvířata jsou si rovna, žádné zvíře nesmí spát v posteli, každý, kdo chodí po dvou nohách je nepřítel, žádné zvíře nebude chodit oblečené, … Nejdříve šlo všechno pěkně – zvířata byla svobodná, pracovala skvěle a s chutí a byla soběstačná. Jenom Molině se nová politika příliš nelíbila. Stýskalo se jí po tom, jak ji lidé hladili, krmili cukrem a zdobili jí hřívu pentlemi. Proto utíká z farmy k lidem. Dvě nejchytřejší prasata byli Kuliš a Napoleon. Tato dvě prasata se stala vůdci celé farmy. Některá zvířata se naučila číst a trochu psát, ale většina z nich byla velmi hloupá a ochotná poslouchat prasata na slovo. Lidé se snažili získat farmu zpět, ale zvířata je společnými silami porazila. Nejstatečněji ale bojoval Kuliš, který se vrhl přímo na pana Jonese. Tato slavná bitva dostala název „bitva U Kravína“ a Kuliš dostal vyznamenání. Zvířecí farma se má stát vzorem pro celé okolí. Prasata plánují například zavést elektřinu. Napoleon s Kulišem se mezi sebou začali hádat a spory byly čím dál větší. Kuliš chtěl postavit větrný mlýn, ale Napoleon ne. Napoleon vyhnal chudáka Kuliše a poslal na něj divoké psy, které si sám vychoval. Všem ostatním zvířatům napovídal lži a překroutil spoustu věcí. Hloupoučká zvířata mu uvěřila, že se Kuliš spolčil s lidmi a v bitvě U Kravína se zachoval velmi zbaběle. Od té doby se na farmě začaly dít podivné věci a za všechno podle prasat mohl Kuliš, který byl od začátku revoluce zrádce. Napoleon rozkázal stavět větrný mlýn a namluvil zvířatům, že to byl původně jeho nápad a Kuliš mu ho ukradl. Zvířata tvrdě pracují a nebrání se. Pořád si myslí, že to dělají pro sebe a že se budou mít lépe, až ho dostaví. Mlýn je stavěn celkem třikrát. Jednou totiž spadne díky silnému větru a podruhé je zničen lidmi, kteří ho při další bitvě odpálí střelným prachem. Zvířata mají čím dál horší podmínky k životu, pracují příliš tvrdě a mají nedostatek jídla. Pištík jim předhazuje čísla a statistiky o tom, jak se jejich situace rok od roku lepší, a zvířata mu slepě věří. Prasata zatím obydlují dům pana Jonese, oblékají se, pijí whisky a přes prostředníka Whympera obchodují s lidmi – hlavně se dvěma sousedy (Frederick a Pilkington). Jsou lenošní jako lidé. Spí v postelích, pijí alkohol a poopravují Sedm přikázání. Změní například to, že všechna zvířata jsou si rovna, některá jsou si ale rovnější, žádné zvíře nesmí pít alkohol přes míru a žádné zvíře nesmí spát v posteli s prostěradly. Vraždí ostatní zvířata za to, že byla údajně spolčena s Kulišem a za jakékoliv myšlenky proti Napoleonovi (již zvaný Vůdce). Ta si nechají namluvit, že skutečná znění Sedmi přikázání již zapomněla. Nejoddanější pracovník je kůň Boxer, jehož heslem je, že musí pracovat lépe a s chutí a že Napoleon má vždycky pravdu. Pracuje ale tolik, že se předře. Nedočká se důchodu, jak mu bylo slíbeno, ale je odvezen na jatka. Zvířata, která umí číst, tohle zjistí, když přijede řeznické auto. Nejvíc nešťastný je osel Benjamin a kobyla Lupina, kteří byli jeho nejlepší přátelé. Pištík jim ale napovídá, že Boxer byl odvezen do nemocnice autem, které dříve patřilo řezníkovi, ale teď si ho koupil doktor. Prasata se naučí chodit po dvou, mezi ostatními zvířaty prochází s bičem a hlídají je obrovští psi. Začínají spolupracovat s lidmi a přejmenují farmu zpět na Panskou. S lidmi popíjí a hrají karty. Ostatní zvířata sledují, jak se v domě hádají prasata s lidmi a uvědomují si, že je od sebe nedokážou rozeznat. Prasata totiž vypadají jako lidé."
     ],
@@ -180,7 +249,13 @@ export const books: Book[] = [
     "theme": "Doktor Galén objeví lék na smrtelnou bílou nemoc, ale odmítá léčit mocné a bohaté, dokud neuzavřou světový mír. Ve chvíli, kdy se mu podaří přesvědčit diktátora Maršála, je Galén ušlapán zfanatizovaným davem a lék je nenávratně zničen. (Motivy: Nemoc, pandemie. medicína, diktatura, válka, fašismus)",
     "timeAndSpace": "Před 2. světovou válkou, vymyšlená země",
     "composition": "Chronologická",
-    "characters": [],
+    "characters": [
+      { "name": "Doktor Galén", "description": "Vynalezne lék na bílou nemoc, odmítá léčit mocné, dokud nebude mír. Ušlapán davem." },
+      { "name": "Profesor Sigelius", "description": "Majitel kliniky, snaží se nemoc léčit neúspěšně, nedozví se Galénovo tajemství." },
+      { "name": "Baron Krug", "description": "Hlavní zbrojař, nakazí se nemocí a po zákazu od generála se zastřelí." },
+      { "name": "Maršál", "description": "Diktátor zaslepený válkou, nakonec se sám nakazí a pod tlakem přistoupí na mír." },
+      { "name": "Dcera maršála a přítel", "description": "Přesvědčí maršála, že válka bez něj bude ztracena, a ať přistoupí na mír." }
+    ],
     "plotSummary": [
       "Ve světě se rozmáhá smrtelná nemoc, která dostane název „Bílá nemoc“. Projevuje se bílými skvrnami na kůži, které potom spolu s masem odpadávají a tím způsobují pacientovi bolesti. V otevřených ranách následně může vzniknout infekce. Tato nemoc je nejvíce podobna již známému onemocnění, malomocenství. Šíří se především dotykem a postihuje lidi starší 45 let. Léky zprvu pouze zpomalují nemoc a zmírňují její bolesti, neexistuje takový lék, který by člověka zachránil a vyléčil.",
       "Vše se mění s nástupem doktora Galéna na scénu. Tento inteligent a úspěšný lékař vynalezne lék na již zmíněnou smrtelnou nemoc, která se velmi rychle šíří na našem území a ohrožuje více a více lidí. Doktor Galén se nechá zaměstnat na klinice prof. Sigelia, kde se léčbou nemoci zabývají, ale doposud neúspěšně. Má velké úspěchy a o kliniku se začne zajímat tisk.",
@@ -208,7 +283,14 @@ export const books: Book[] = [
     "theme": "Varování lidí, aby se nestali otroky vlastních vynálezů (Motivy: následky „povyšování se nad Boha\", poměr člověka ke světu, mezilidské vztahy. Lidské hodnoty. nenasytnost člověka, rozpor příroda x věda)",
     "timeAndSpace": "Rossomův ostrov v blízké budoucnosti, nachází se zde továrna na roboty",
     "composition": "Chronologická",
-    "characters": [],
+    "characters": [
+      { "name": "Domin", "description": "Ředitel fabriky na roboty, vezme si Helenu za ženu." },
+      { "name": "Helena", "description": "Dcera prezidenta, soucítí s roboty a spálí plány na jejich výrobu." },
+      { "name": "Sulla", "description": "Asistentka robotka, je nerozeznatelná od lidí." },
+      { "name": "Doktor Gall", "description": "Přemluven Helenou, pokusí se vyrobit roboty s city." },
+      { "name": "Alquist", "description": "Jediný člověk, který je roboty ušetřen, protože pracuje rukama. Snaží se znovu najít plány." },
+      { "name": "Primus a Helena (roboti)", "description": "Roboti, kteří v sobě objevili city a lásku, jsou počátkem nové civilizace." }
+    ],
     "plotSummary": [
       "Za Dominem přijede Helena, dcera prezidenta, a chce vidět závod na výrobu robotů. Přijela sem, aby promluvila k robotům, proč si nechají líbit zacházení, jako by byli stroje. Roboti jsou nerozeznatelní od lidí, ale nemají city a lidské funkce. Proto dojde k záměně, kdy si nejprve Helena myslí o asistentce robotce Sulle, že je žena a následně o skutečných lidech je přesvědčena, že jsou roboti a tedy k nim i promlouvá jako k robotům.",
       "Helena v továrně zůstane a vezme si Domina a děj se přesune o deset let později.",
@@ -286,7 +368,17 @@ export const books: Book[] = [
     "theme": "Nehynoucí touha po dosažení snu a deziluze, (Gastby měl vše co by chtěli ostatní, ale nejvíce chtěl lásku Daisy, která nakonec nepřišla.) Možná, že v tehdejší společnosti, kde všichni pili a bavili se nemohl svého snu nikdy dosáhnout. (Motivy: Plnění amerického snu, příležitosti zbohatnou, večírky, dopad války na lidi)",
     "timeAndSpace": "Long Island (New York City), 1922",
     "composition": "Retrospektivní",
-    "characters": [],
+    "characters": [
+      { "name": "Nick Carraway", "description": "Vypravěč, Gatsbyho soused a přítel, seznámí ho s Daisy." },
+      { "name": "Jay Gatsby (Gatz)", "description": "Zbohatlík s temnou minulostí, pořádá velkolepé večírky a touží po lásce Daisy." },
+      { "name": "Daisy Buchananová", "description": "Nickova sestřenice a Gatsbyho životní láska, povrchní žena." },
+      { "name": "Tom Buchanan", "description": "Manžel Daisy, bohatý a arogantní, má milenku." },
+      { "name": "Myrtle Wilsonová", "description": "Tomova milenka, manželka majitele autoopravny, je tragicky přejetá autem." },
+      { "name": "George Wilson", "description": "Zničený manžel Myrtle, majitel autoopravny, ze msty zastřelí Gatsbyho." },
+      { "name": "Jordan Bakerová", "description": "Mladá golfistka, Nickova přítelkyně z vyšší společnosti." },
+      { "name": "Meyer Wolfsheim", "description": "Podvodník, zapletený do Gatsbyho nelegálních obchodů." },
+      { "name": "Dan Cody", "description": "Milionář z Gatsbyho minulosti, který mu dopomohl k penězům." }
+    ],
     "plotSummary": [
       "Nick se setkává se svojí poněkud povrchní sestřenicí Daisy vdanou za Nickova známého Toma Buchanana, se kterým má malou dcerku. Manželství však není zcela šťastné, Nick dokonce osobně poznává Tomovu milenku Myrtle Wilsonovou, manželku majitele blízké autoopravny. Nick naváže styk s Gatsbym, je zván na jeho pravidelné monstrózní večírky, zapadne do zdejší pestré společnosti a seznámí se s půvabnou mladou golfistkou Jordan Bakerovou. Stane se přítelem Gatsbyho a získává tak jedinečnou příležitost se dozvědět něco více o tomto člověku, o jehož minulosti na veřejnosti kolují pouze nepodložené legendy či pomluvy.",
       "Postupně se dozvídá detaily nejen o přinejmenším podezřelých Gatsbyho obchodech s alkoholem, do kterých je zapojen i známý podvodník Meyer Wolfsheim, ale i celou historii jeho tajemného života. Gatsby se původně jmenoval Gatz a pocházel z chudé rodiny, velmi se však toužil vypracovat, a tak utekl z domova. Potkal milionáře Dana Codyho, který mu později dopomohl k penězům. Ještě více však jeho život poznamenala láska k mladé bohaté dívce Daisy, milence však od sebe oddělilo jednak rozdílné společenské postavení a také válka, ve které byl Gatsby povýšen na majora, což mu také umožnilo strávit několik měsíců v Oxfordu. Během té doby se však Daisy vdala. Vychází tak najevo, že životní láskou Gatsbyho je žena Toma Buchanana Daisy, a Gatsby se s ní znovu setkává, čímž způsobí naprostý rozvrat jejího manželství s Tomem.",
@@ -312,10 +404,14 @@ export const books: Book[] = [
     "timeAndSpace": "České země, venkov, temná neurčitá místa vycházející z lidových pověstí (kostely, hřbitovy), 19. století, čas není určen",
     "composition": "Zrcadlová (básně), chronologická",
     "characters": [
-      {
-        "name": "Veršová výstavba",
-        "description": "Gnomický verš, pro který je typická krátkost a hutnost"
-      }
+      { "name": "Vdova a dítě (Poklad)", "description": "Matka oslepená zlatem, která nechá dítě v jeskyni." },
+      { "name": "Macecha a vlastní dcera (Zlatý kolovrat)", "description": "Zabijí Dorinku, aby se vlastní dcera mohla provdat za krále." },
+      { "name": "Král a Dorinka (Zlatý kolovrat)", "description": "Král se zamiluje do Dorinky, která je oživena díky zlatému kolovratu." },
+      { "name": "Hana a Marie (Štědrý den)", "description": "Dívky předvídající budoucnost v jezírku - svatba a smrt." },
+      { "name": "Žena a nebožtík (Holoubek)", "description": "Žena otráví manžela, ale holoubek na hrobě ji donutí k sebevraždě." },
+      { "name": "Muž a zakletá žena (Vrba)", "description": "Muž pokácí vrbu, čímž nevědomky zabije svou ženu." },
+      { "name": "Pán a Lilie (Lilie)", "description": "Pán si vezme oživlou lilii, kterou jeho matka nakonec zahubí." },
+      { "name": "Veršová výstavba", "description": "Gnomický verš, pro který je typická krátkost a hutnost." }
     ],
     "plotSummary": [
       "Poklad",
@@ -571,7 +667,11 @@ export const books: Book[] = [
     "theme": "Zobrazit životy nižší vrstvy společnosti (násilníků, drogově závislých), a především člověka trpícího schizofrenií. Kritika konzumní společnosti tehdejších USA. (Motivy: Schizofrenie, psychika, představy, mezilidské vztahy, smrt, odpor.)",
     "timeAndSpace": "USA 90 léta 20. století",
     "composition": "Retrospektivní",
-    "characters": [],
+    "characters": [
+      { "name": "Vypravěč", "description": "Běžný úředník trpící nespavostí, nenávidí svůj konzumní život." },
+      { "name": "Tyler Durden", "description": "Extrémní anarchista a zakladatel Klubu rváčů, Vypravěčův mentor (a nakonec jeho alter ego)." },
+      { "name": "Marla Singerová", "description": "Záhadná žena, kterou Vypravěč poznává na podpůrných skupinách." }
+    ],
     "plotSummary": [
       "Začátek knihy otevřen introdukcí do života Vypravěče, který pracuje jako běžný úředník pojišťovací firmy, který je zjevně neustále unavený, trpí nespavostí. Jako lék si najde návštěvy různých podpůrných skupin, kde zároveň velmi zvláštně poznává Marlu.",
       "Příběh pořádněji začíná, kdy se hlavní protagonisté – „anonymní“/ Stejnojmenný Vypravěč a Tyler Durden – setkají na letadle. Po návratu domů z pracovní cesty letadlem zjistí, že jeho byt byl zničen výbuchem a všechno, co měl, je pryč. V zoufalství se obrátí na Tylera, který mu nabídne, aby spolu bydleli. Postupně se jejich přátelství prohlubuje a Tyler se stává pro vypravěče mentorem a vzorem mužství.",
