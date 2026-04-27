@@ -44,64 +44,77 @@ export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, on
       <div className="detail-content">
         <section className="info-card">
           <h4>Základní info</h4>
-          <p className="info-item"><strong>Literární období:</strong> {book.period}</p>
-          <p className="info-item"><strong>Druh a žánr:</strong> {book.typeAndGenre}</p>
-          <p className="info-item"><strong>Téma a motiv:</strong> {book.theme}</p>
-          <p className="info-item"><strong>Časoprostor:</strong> {book.timeAndSpace}</p>
-          <p className="info-item"><strong>Kompozice:</strong> {book.composition}</p>
+          {book.form && <p className="info-item"><strong>Literární forma:</strong> {book.form}</p>}
+          {book.period && <p className="info-item"><strong>Literární období:</strong> {book.period}</p>}
+          {book.typeAndGenre && <p className="info-item"><strong>Druh a žánr:</strong> {book.typeAndGenre}</p>}
+          {book.theme && <p className="info-item"><strong>Téma a motiv:</strong> {book.theme}</p>}
+          {book.timeAndSpace && <p className="info-item"><strong>Časoprostor:</strong> {book.timeAndSpace}</p>}
+          {book.composition && <p className="info-item"><strong>Kompozice:</strong> {book.composition}</p>}
         </section>
 
-        <section className="author-section">
-          <h4>O autorovi</h4>
-          <div className="author-card">
-            <p className="author-info-short">{book.authorInfo}</p>
-            <p className="author-bio">{book.authorBio}</p>
-          </div>
-        </section>
+        {(book.authorInfo || book.authorBio) && (
+          <section className="author-section">
+            <h4>O autorovi</h4>
+            <div className="author-card">
+              {book.authorInfo && <p className="author-info-short">{book.authorInfo}</p>}
+              {book.authorBio && <p className="author-bio">{book.authorBio}</p>}
+            </div>
+          </section>
+        )}
 
-        <section className="content-section">
-          <h4>Hlavní postavy</h4>
-          <ul className="character-list">
-            {book.characters.map((char, index) => (
-              <li key={index} className="character-item">
-                <span className="char-name">{char.name}</span>
-                <span className="char-desc">{char.description}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="content-section">
-          <h4>Stručný děj</h4>
-          <div className="plot-container">
-            {book.plotSummary.map((point, index) => (
-              <div key={index} className="plot-step">
-                <span className="step-number">{index + 1}</span>
-                <p>{point}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <div className="two-column-grid">
+        {book.characters && book.characters.length > 0 && (
           <section className="content-section">
-            <h4>Jazyk a styl</h4>
-            <ul className="bullet-list">
-              {book.languageAndStyle.map((point, index) => (
-                <li key={index}>{point}</li>
+            <h4>Hlavní postavy</h4>
+            <ul className="character-list">
+              {book.characters.map((char, index) => (
+                <li key={index} className="character-item">
+                  <span className="char-name">{char.name}</span>
+                  <span className="char-desc">{char.description}</span>
+                </li>
               ))}
             </ul>
           </section>
+        )}
 
+        {book.plotSummary && book.plotSummary.length > 0 && (
           <section className="content-section">
-            <h4>Kontext</h4>
-            <ul className="bullet-list">
-              {book.context.map((point, index) => (
-                <li key={index}>{point}</li>
+            <h4>Stručný děj</h4>
+            <div className="plot-container">
+              {book.plotSummary.map((point, index) => (
+                <div key={index} className="plot-step">
+                  <span className="step-number">{index + 1}</span>
+                  <p>{point}</p>
+                </div>
               ))}
-            </ul>
+            </div>
           </section>
-        </div>
+        )}
+
+        {(book.languageAndStyle?.length > 0 || book.context?.length > 0) && (
+          <div className="two-column-grid">
+            {book.languageAndStyle && book.languageAndStyle.length > 0 && (
+              <section className="content-section">
+                <h4>Jazyk a styl</h4>
+                <ul className="bullet-list">
+                  {book.languageAndStyle.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {book.context && book.context.length > 0 && (
+              <section className="content-section">
+                <h4>Kontext</h4>
+                <ul className="bullet-list">
+                  {book.context.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

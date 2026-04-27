@@ -7,7 +7,15 @@ import { BookDetail } from './components/BookDetail';
 
 function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
-  const [activeName, setActiveName] = useState<'matej' | 'andrej'>('matej');
+  const [activeName, setActiveName] = useState<'matej' | 'andrej'>(() => {
+    const saved = localStorage.getItem('activeName');
+    return (saved === 'matej' || saved === 'andrej') ? saved : 'matej';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('activeName', activeName);
+  }, [activeName]);
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPeriod, setSelectedPeriod] = useState('');
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
