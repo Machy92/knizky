@@ -7,9 +7,12 @@ interface BookDetailProps {
   onBack: () => void;
   onPrev?: () => void;
   onNext?: () => void;
+  isLearned?: boolean;
+  onToggleLearned?: () => void;
+  showLearnedToggle?: boolean;
 }
 
-export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, onNext }) => {
+export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, onNext, isLearned, onToggleLearned, showLearnedToggle }) => {
   return (
     <div className="book-detail-container">
       <div className="detail-navigation">
@@ -32,7 +35,18 @@ export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, on
       
       <div className="detail-header">
         <div className="title-section">
-          <h2>{book.title}</h2>
+          <h2 style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            {book.title}
+            {showLearnedToggle && (
+              <button 
+                className={`learned-toggle-detail ${isLearned ? 'active' : ''}`}
+                onClick={onToggleLearned}
+                title={isLearned ? "Umím!" : "Ještě neumím"}
+              >
+                {isLearned ? '✅' : '⬜'}
+              </button>
+            )}
+          </h2>
           <h3>{book.author}</h3>
         </div>
         <div className="tags-section">

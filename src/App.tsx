@@ -16,6 +16,25 @@ function App() {
     localStorage.setItem('activeName', activeName);
   }, [activeName]);
 
+  const [learnedBooks, setLearnedBooks] = useState<Record<string, string[]>>(() => {
+    const saved = localStorage.getItem('learnedBooks');
+    return saved ? JSON.parse(saved) : { matej: [], andrej: [] };
+  });
+
+  useEffect(() => {
+    localStorage.setItem('learnedBooks', JSON.stringify(learnedBooks));
+  }, [learnedBooks]);
+
+  const toggleLearned = (bookId: string) => {
+    setLearnedBooks(prev => {
+      const current = prev[activeName] || [];
+      const updated = current.includes(bookId)
+        ? current.filter(id => id !== bookId)
+        : [...current, bookId];
+      return { ...prev, [activeName]: updated };
+    });
+  };
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPeriod, setSelectedPeriod] = useState('');
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
@@ -81,6 +100,9 @@ function App() {
             onBack={() => setSelectedBook(null)}
             onPrev={handlePrev}
             onNext={handleNext}
+            isLearned={learnedBooks[activeName]?.includes(selectedBook.id) || false}
+            onToggleLearned={() => toggleLearned(selectedBook.id)}
+            showLearnedToggle={activeName === 'matej'}
           />
         ) : (
           <div className="dashboard">
@@ -98,6 +120,9 @@ function App() {
                     key={book.id} 
                     book={book} 
                     onClick={setSelectedBook} 
+                    isLearned={learnedBooks[activeName]?.includes(book.id) || false}
+                    onToggleLearned={() => toggleLearned(book.id)}
+                    showLearnedToggle={activeName === 'matej'}
                   />
                 ))}
               </div>
