@@ -141,7 +141,13 @@ export const books: Book[] = [
         "description": "Dílo je napsáno převážně blankversem, což je pětistopý nerýmovaný verš"
       }
     ],
-    "plotSummary": [],
+    "plotSummary": [
+      "Příběh se odehrává v italské Veroně, kde mezi sebou vedou dlouholetý a krvavý spor dva mocné rody – Kapuleti a Montekové.",
+      "Na plese u Kapuletů, kam se tajně vnutí Romeo z rodu Monteků se svými přáteli, se poprvé setkává s Julií Kapuletovou. Okamžitě se do sebe zamilují a ještě téže noci si vyznají lásku pod Juliiným balkonem. Následující den je tajně oddá bratr Vavřinec, který doufá, že sňatek ukončí nenávist obou rodů.",
+      "Spor rodů však nadále pokračuje. Juliin bratranec Tybalt v souboji zabije Romeova přítele Merkucia. Romeo v návalu zlosti Tybalta zavraždí, za což je z Verony vyhoštěn do Mantovy. Rodiče Julie, kteří o tajném sňatku nic neví, mezitím domluví její sňatek s hrabětem Parisem.",
+      "Zoufalá Julie hledá pomoc u bratra Vavřince. Ten jí dá uspávací lektvar, po kterém bude na 42 hodin vypadat jako mrtvá. Plánuje, že po pohřbu do hrobky přijde Romeo a společně utečou. Julie lektvar vypije a je uložena do rodinné hrobky.",
+      "Zpráva od Vavřince o tomto plánu se však k Romeovi kvůli morové karanténě nedostane. Místo toho se dozvídá, že je Julie skutečně mrtvá. Zdrcený Romeo si koupí jed, vrátí se do Verony, v hrobce Kapuletů zabije Parise, který tam truchlí, a následně spáchá vedle „mrtvé“ Julie sebevraždu. Krátce nato se Julie probudí, a když zjistí, že je Romeo mrtvý, probodne se jeho dýkou. Teprve nad těly svých mrtvých dětí si oba znepřátelené rody uvědomí nesmyslnost své nenávisti a konečně uzavřou mír."
+    ],
     "languageAndStyle": [
       "Monolog (Jedna postava, pocity, myšlenky), dialog (dvě nebo více postav, konflikty, interakce), replika (Jedna promluva postavy, než ji někdo vystřídá)"
     ],
