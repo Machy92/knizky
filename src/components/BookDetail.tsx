@@ -58,7 +58,7 @@ export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, on
       <div className="detail-content">
         <section className="info-card">
           <h4>Základní info</h4>
-          {book.form && <p className="info-item"><strong>Literární forma:</strong> {book.form}</p>}
+
           {book.period && <p className="info-item"><strong>Literární období:</strong> {book.period}</p>}
           {book.typeAndGenre && <p className="info-item"><strong>Druh a žánr:</strong> {book.typeAndGenre}</p>}
           {book.theme && <p className="info-item"><strong>Téma a motiv:</strong> {book.theme}</p>}
