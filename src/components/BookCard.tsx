@@ -30,6 +30,9 @@ export const BookCard: React.FC<BookCardProps> = ({ book, onClick, isLearned, on
         <p className="book-author">{book.author}</p>
         <div className="book-tags">
           {book.period && <span className="tag">{book.period}</span>}
+          {book.typeAndGenre && book.typeAndGenre.split(',').map((tag, index) => (
+            <span key={index} className="tag">{tag.trim()}</span>
+          ))}
         </div>
       </div>
     </div>

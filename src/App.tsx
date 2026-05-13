@@ -67,7 +67,7 @@ function App() {
         book.theme.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesPeriod = selectedPeriod ? book.period === selectedPeriod : true;
       return matchesSearch && matchesPeriod;
-    });
+    }).sort((a, b) => a.author.localeCompare(b.author, 'cs') || a.title.localeCompare(b.title, 'cs'));
   }, [searchQuery, selectedPeriod, activeName]);
 
   // Scroll to top when a book is selected or unselected

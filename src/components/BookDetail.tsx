@@ -51,7 +51,9 @@ export const BookDetail: React.FC<BookDetailProps> = ({ book, onBack, onPrev, on
         </div>
         <div className="tags-section">
           {book.period && <span className="tag detail-tag">{book.period}</span>}
-          {book.typeAndGenre && <span className="tag detail-tag">{book.typeAndGenre}</span>}
+          {book.typeAndGenre && book.typeAndGenre.split(',').map((tag, index) => (
+            <span key={index} className="tag detail-tag">{tag.trim()}</span>
+          ))}
         </div>
       </div>
 
