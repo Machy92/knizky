@@ -718,17 +718,41 @@ export const books: Book[] = [
     "id": "fetak",
     "title": "Feťák",
     "author": "William S. Burroughs",
-    "authorInfo": "",
-    "authorBio": "",
+    "authorInfo": "William Seward Burroughs, žil v letech 1914 až 1997",
+    "authorBio": "Pocházel z dobře situované rodiny, vystudoval srovnávací lingvistiku a anglickou literaturu na Harvardu. Během života vystřídal řadu zaměstnání (barman, krysař, soukromý detektiv, dealer drog). Sám byl dlouhé roky těžce závislý na opiátech. Známá je tragická událost z počátku 50. let, kdy na večírku v Mexiku nešťastnou náhodou zastřelil svou manželku Joan. Je považován i za jednoho ze zakladatelů žánru kyberpunk.",
     "period": "",
-    "typeAndGenre": "",
-    "theme": "",
-    "timeAndSpace": "",
-    "composition": "",
-    "characters": [],
-    "plotSummary": [],
-    "languageAndStyle": [],
-    "context": []
+    "typeAndGenre": "Epika, Autobiografický román",
+    "theme": "Žurnalistický, téměř vědecký a nekompromisní popis vzniku návyku na drogu, marných pokusů o léčbu a detailní pohled na to, jak funguje psychika a každodenní život člověka zcela ovládaného drogou. Autentická zpověď narkomana, která realisticky a bez moralizování zobrazuje drogové podsvětí. Autor ukazuje, že droga se stává pro feťáka jediným smyslem, nahrazuje mu běžný život, určuje jeho přežití a mění jeho základní lidské priority. (Motivy: Drogy (heroin, morfium, kodein), vznik závislosti, záchvaty abstinence (absťáky), dealerství, drobná kriminalita, strach z policie, snaha o léčbu, únik před realitou, hledání indiánské halucinogenní drogy (yage))",
+    "timeAndSpace": "40. a 50. léta 20. století; prostředí USA (zejména ulice New Yorku, nemocnice/léčebna v Lexingtonu) a později Mexiko a Jižní Amerika",
+    "composition": "Chronologická, nicméně text připomíná spíše deník narkomana plný záznamů z každodenního koloběhu a seznamování s novými kontakty. Kniha vyšla poprvé v roce 1953 pod pseudonymem William Lee.",
+    "characters": [
+      {
+        "name": "William Lee (vypravěč)",
+        "description": "Inteligentní muž z dobré rodiny, který se z nudy dostal k drogám a skončil na okraji společnosti. Je bystrý, ale vůči svému osudu i vůči ostatním lidem vystupuje naprosto chladně a pragmaticky. Touží se zbavit závislosti, ale vícekrát selže."
+      },
+      {
+        "name": "Ostatní feťáci a dealeři (např. Herman, Roy, Norton)",
+        "description": "Zloději, podvodníci, delikventi a ztroskotanci, se kterými se hlavní hrdina v podsvětí potkává. Nemají motivaci k normálnímu životu, zajímají se jen o to, kde seženou další dávku."
+      }
+    ],
+    "plotSummary": [
+      "Příběh začíná vzpomínkou na bezstarostný život, studium a armádu, po kterých hlavní hrdina z obyčejné nudy vyzkouší drogy (morfium z vojenských syret). Postupně a nepozorovaně si na ně vytvoří silný návyk. Zjišťuje, že palčivá touha po dávce brzy převýší úplně všechno ostatní.",
+      "Aby si zajistil stálý přísun drog a peněz, stane se z něj překupník (dealer). Převážná část díla zachycuje tento ubíjející každodenní kolotoč v New Yorku – shánění nových kontaktů, neustálý strach z policie, zaobstarávání a prodej dávek a trávení času s jinými feťáky.",
+      "Román popisuje i jeho zoufalé, ale neúspěšné pokusy o léčení (například v sanatoriu pro drogově závislé v Lexingtonu). Vždy po propuštění z léčebny po chvíli podlehne starým zvykům a vrátí se na ulici.",
+      "Později, ve strachu před americkým soudem a hrozbou vězení, utíká do Mexika. Tam se bezcílně poflakuje, potýká se se zkorumpovanou policií a špatným, nekvalitním zbožím.",
+      "Když si uvědomí marnost svého dosavadního počínání, rozhodne se s drogami skoncovat. Místo nich si ale rychle vytvoří závislost na alkoholu, který ho ničí snad ještě víc.",
+      "Na konci se mu s vypětím sil podaří zlomit obě závislosti (na heroinu i alkoholu). Nezbavuje se však samotné touhy po změněném stavu vědomí – v úplném závěru knihy si pohrává s myšlenkou odcestovat do povodí Amazonky (do Kolumbie) a najít legendární indiánskou drogu yage, o které věří, že mu přinese telepatické schopnosti a konečné, očišťující uvolnění."
+    ],
+    "languageAndStyle": [
+      "Ich-forma. Vypravěč si udržuje neustálý odstup, události popisuje velmi chladně, reportážně, detailně a nezúčastněně (využívá tzv. faktualismus).",
+      "Převažuje jednoduchá větná stavba (krátké, ale na fakta a detaily bohaté věty). Jazyk je často nespisovný a hovorový.",
+      "Využívá se zde obrovské množství autentického slangu narkomanů (grán, syreta, háčko, emko, klepačka) a objevují se hrubé výrazy a vulgarismy.",
+      "Autor vynechal sáhodlouhé popisy emocí a soustředil se na surové konstatování faktů."
+    ],
+    "context": [
+      "Autorovo zasazení: Beat generation (beatníci): Literární a kulturní hnutí v USA v 50. a 60. letech 20. století. Autoři tohoto proudu odmítali tradiční materialistickou společnost, konzum, maloměšťáctví a rasismus. Hledali vnitřní svobodu prostřednictvím cest, jazzu a často experimentovali s drogami. Burroughs je považován za jednoho z duchovních otců tohoto hnutí.",
+      "Další díla: Nahý oběd (W. S. Burroughs), Jack Kerouac (Na cestě), Allen Ginsberg (Kvílení)"
+    ]
   },
   {
     "id": "alchymista",
